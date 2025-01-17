@@ -277,25 +277,23 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
+		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -311,7 +309,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,7 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -329,7 +327,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -338,10 +336,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "+12V_0_1"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -353,7 +372,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -365,7 +396,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -376,10 +407,131 @@
 					)
 				)
 			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -388,6 +540,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -494,161 +664,823 @@
 			)
 		)
 	)
+	(junction
+		(at 53.34 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b63d457-e32e-43c3-aadb-3e03ab5536c1")
+	)
+	(junction
+		(at 63.5 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c097abf-99d2-4ddd-8265-eaa2fafecc5c")
+	)
+	(junction
+		(at 63.5 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "178bf2f9-b60c-4157-babd-4a17eeeafa95")
+	)
+	(junction
+		(at 124.46 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d0b91a8-eb7c-4a95-8613-26ceaeef68bc")
+	)
+	(junction
+		(at 114.3 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3533709e-1f97-4c9b-9e05-d0c21f2d27d7")
+	)
+	(junction
+		(at 53.34 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36980f4b-4b13-4dce-87f1-e331cd483cf8")
+	)
+	(junction
+		(at 124.46 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f11d4c7-c8b8-4c38-af12-520195ad206d")
+	)
+	(junction
+		(at 63.5 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50cb3932-bb27-4bc9-8b1a-cc22e2d461e6")
+	)
+	(junction
+		(at 63.5 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ec6c013-16b4-4b63-986c-d2ed10f0cbd8")
+	)
+	(junction
+		(at 114.3 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95303450-e168-4cf4-a7c2-9113cfee37d2")
+	)
+	(junction
+		(at 124.46 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0624480-f9a7-4d3d-b47c-770b13456c7d")
+	)
+	(junction
+		(at 53.34 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b575ff76-fe00-4bea-9933-527f9ee5b54a")
+	)
+	(junction
+		(at 114.3 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec4c723e-9d36-4559-8b1d-9531d6cd7790")
+	)
+	(junction
+		(at 53.34 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64f05b8-310a-4dff-a082-873cc8498f1f")
+	)
 	(wire
 		(pts
-			(xy 131.572 69.342) (xy 131.572 89.662)
+			(xy 132.08 60.96) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08fdc7fe-d916-40fb-8bd7-4b71ef450258")
+		(uuid "0397168f-9549-4291-9903-4fc9863ac43e")
 	)
 	(wire
 		(pts
-			(xy 131.318 66.802) (xy 131.318 58.674)
+			(xy 114.3 60.96) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a0212eb-cd47-417e-a9e1-3e728157d9e1")
+		(uuid "066bcb7f-5cb2-46a9-8eff-f63663fc8c1e")
 	)
 	(wire
 		(pts
-			(xy 136.144 66.802) (xy 131.318 66.802)
+			(xy 109.22 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d673d62-9715-4086-9b7c-ac96cb6c0444")
+		(uuid "21f1b649-cb9f-4ce8-b866-4822f4b7eeca")
 	)
 	(wire
 		(pts
-			(xy 136.144 69.342) (xy 131.572 69.342)
+			(xy 53.34 92.71) (xy 54.61 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c5a975b-fbf2-466f-97e3-35ed950e2236")
+		(uuid "2a927fa4-6054-41a2-b740-b5c7b6e12c2e")
 	)
 	(wire
 		(pts
-			(xy 89.916 89.662) (xy 131.572 89.662)
+			(xy 63.5 73.66) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96902fdf-b8f3-44cd-9e28-e60ccf889c29")
+		(uuid "2f20e928-32bf-4bc2-8ca5-e05a7a4358be")
 	)
 	(wire
 		(pts
-			(xy 90.932 58.674) (xy 107.188 58.674)
+			(xy 132.08 43.18) (xy 124.46 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d77d1987-341f-43d3-8bf1-64b3145d0833")
+		(uuid "33de010e-6882-41bf-bcdd-176a5e22945b")
 	)
 	(wire
 		(pts
-			(xy 114.808 58.674) (xy 131.318 58.674)
+			(xy 124.46 73.66) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7f23b9e-8e64-4e0e-adfa-db0367ff4345")
+		(uuid "394fea68-3dc4-4a91-a9f3-8779edc11d64")
 	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 90.932 58.674 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "073a9866-5a25-4cc1-9f4f-a2b64302c75a")
-		(property "Reference" "#PWR06"
-			(at 94.742 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 53.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c059313-e021-4579-a14c-0dadf69c74d9")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6a874a-6c0d-4ee9-8e81-655a8b830f2c")
+	)
+	(wire
+		(pts
+			(xy 53.34 125.73) (xy 53.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4365623b-2f11-41e0-9a49-4046f3596d4c")
+	)
+	(wire
+		(pts
+			(xy 71.12 105.41) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4664f5cc-ba22-49ee-b33e-355edbd384f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47411a2a-a6e6-4804-ab68-895182733f71")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486efdb6-aa9b-4a49-9d2b-81d0bb419cc4")
+	)
+	(wire
+		(pts
+			(xy 132.08 30.48) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c048704-049a-4254-a447-907fb498286d")
+	)
+	(wire
+		(pts
+			(xy 53.34 138.43) (xy 60.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff8ca7c-2d2f-421e-9f59-54ebcfc51335")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 115.57 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502f2ca6-ab64-4243-ae74-24bd8a7f0ba1")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5065faa4-57b3-4215-8c7d-48d3c8d315b6")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508645ff-f3e6-4124-b136-ffe3eab8d95b")
+	)
+	(wire
+		(pts
+			(xy 109.22 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5137a96e-ed48-485f-ae68-dae4bf3e16d3")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f965e2-15fc-4b9e-9452-8348f19cea99")
+	)
+	(wire
+		(pts
+			(xy 36.83 138.43) (xy 40.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5999e95c-8c2a-4fce-b008-b0a0d6c6fbbf")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bd8611-a252-4057-bfc7-21f84170ad68")
+	)
+	(wire
+		(pts
+			(xy 48.26 138.43) (xy 53.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4760b3-3663-4e45-b2bb-e496bad88681")
+	)
+	(wire
+		(pts
+			(xy 132.08 30.48) (xy 130.81 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d832b37-9da6-4da4-93f8-7e6274071845")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6139c946-70bf-4640-879d-747159293e93")
+	)
+	(wire
+		(pts
+			(xy 71.12 30.48) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62157377-f773-48d5-9c96-fe66043e3b49")
+	)
+	(wire
+		(pts
+			(xy 36.83 105.41) (xy 40.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67968bbf-81eb-4c92-b50e-8fd23801d68f")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b12cc6f-a3d2-4727-b856-5f135248cd93")
+	)
+	(wire
+		(pts
+			(xy 36.83 73.66) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c252d5c-c103-44e4-9e7a-7de382661057")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751b0d98-b73c-44bc-a090-415eb7e0c551")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.41) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774e6863-85ca-45ec-9f26-6a79a9f1f35a")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bac4c70-3fb2-45ef-9297-ff725a54b486")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d282f89-d99b-4abd-9d36-4ccc95354871")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 69.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4ef715-3fbe-47b7-976a-c31268208d8b")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f819893-3e9a-4c92-b4a3-1025d66d62e4")
+	)
+	(wire
+		(pts
+			(xy 53.34 105.41) (xy 60.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89285d2d-1e59-40ba-bad7-b9d3cf4bad9e")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a55697-c89d-4663-b137-7a79fc64eada")
+	)
+	(wire
+		(pts
+			(xy 53.34 43.18) (xy 60.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927bbb3f-7212-4e9a-8bb8-abea773d98d5")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a08ddf2-c337-4e5d-bb08-c57375fd40be")
+	)
+	(wire
+		(pts
+			(xy 53.34 125.73) (xy 54.61 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c883ec-7877-4c3b-8bd3-b5ab5588155a")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad26e547-7c7f-4451-92c6-4aefb5a5d892")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.41) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0eb2c06-0e72-400b-8fc8-e4cc1d223134")
+	)
+	(wire
+		(pts
+			(xy 97.79 105.41) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2049de1-4d27-456d-8d81-5e2d3c2d6b73")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dd69de-bf81-48c7-bac4-1c76408c6fb3")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f4f068-9f88-42ae-98e4-58082611ffc0")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b726c4b3-0a89-4e48-b133-f0d7bd986cb6")
+	)
+	(wire
+		(pts
+			(xy 71.12 138.43) (xy 63.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e4a2a2-e2de-4aaa-b928-dbc97cf168df")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8119acf-694c-41cc-bd6f-f9b753f671ae")
+	)
+	(wire
+		(pts
+			(xy 63.5 138.43) (xy 63.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbad60b6-7986-4daa-8a32-715045a5f678")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be18f16d-2c9a-4270-a1f1-9d058517e1cd")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 71.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dd9e04-605f-4800-9e62-0520bf503275")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b9ad46-eab4-47ac-a993-3055dabfbe09")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2659525-407f-4b6e-80ad-6dad66e4ff98")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d744ee04-b45b-45e8-87b2-326e6e9590f3")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e990c52b-6c68-4173-b0ef-69dcad3bcf5c")
+	)
+	(wire
+		(pts
+			(xy 71.12 30.48) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab7d588-ec7b-4e5e-99f3-858153fa8a2c")
+	)
+	(wire
+		(pts
+			(xy 48.26 73.66) (xy 53.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee434d11-3107-49da-8dbb-aea11d3e11ff")
+	)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 54.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8c4fb3-18f2-4431-9c6a-4021212998da")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 71.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef04a356-49da-4f44-af35-e063131e82b1")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e29c98-b4b8-4cef-90bf-d995bfd23259")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7159cc6-1379-425e-9c01-b6e2c3680f8e")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f900252f-d1e6-4c3d-a45c-1b5a5431a4a9")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 69.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff186575-abb5-4896-a272-1f1c242eaa93")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 97.79 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "+12V_A"
-			(at 83.82 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "0a39c9fb-7755-4c1b-943f-bbd3d9da7019")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 97.79 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 90.932 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "1f0229b2-b8f8-4a52-af0a-a3eff072bf42")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 36.83 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Datasheet" ""
-			(at 90.932 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "8152b7c5-3788-49db-9411-fbcb5a33cc46")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 36.83 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 90.932 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "bf140cf2-6017-4a99-95ce-fe6f767c537e")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 36.83 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(pin "1"
-			(uuid "687f828d-ffcb-48a4-8d2e-970e2843a6a7")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
-					(reference "#PWR06")
-					(unit 1)
-				)
+		(uuid "de0905c4-5dfd-407a-bd2c-dbb9f05898ab")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 36.83 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "ea34f64b-2a7f-4d77-ae4e-24f475386d61")
+	)
+	(hierarchical_label "+12V_CRIT"
+		(shape input)
+		(at 97.79 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8bd5cd4-e50f-4083-b0f8-fbc08bcea5bf")
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 110.998 58.674 90)
+		(at 44.45 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10448284-a6fd-49b8-89e7-d3a131c47d25")
-		(property "Reference" "F1"
-			(at 110.998 53.34 90)
+		(uuid "04cd2e86-1a83-478b-beef-88324c5774a5")
+		(property "Reference" "F5"
+			(at 44.45 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 110.998 55.88 90)
+		(property "Value" "10A"
+			(at 44.45 136.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +1488,7 @@
 			)
 		)
 		(property "Footprint" "footprints:3588"
-			(at 110.998 60.452 90)
+			(at 44.45 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,8 +1496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/3568-742601.pdf"
-			(at 110.998 58.674 0)
+		(property "Datasheet" "~"
+			(at 44.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +1506,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 110.998 58.674 0)
+			(at 44.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,11 +1514,143 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "980a23b3-0236-4c3e-9d8f-efac76c75308")
+		)
 		(pin "2"
-			(uuid "16251ce1-b1c6-4458-b141-12c28a0f9ef6")
+			(uuid "0618ffa9-8db7-43d3-81d2-1b21677c83ea")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 63.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16330318-9189-4ea4-afa9-2a1a79a79259")
+		(property "Reference" "#PWR028"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "6fec49ae-9eff-4f59-ade3-b2112f2cea63")
+			(uuid "6b6bbe5f-34d1-45ef-8144-eb083cb1e91a")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 44.45 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "189d2fb7-e238-4f25-b192-9850ebc3057d")
+		(property "Reference" "F1"
+			(at 44.45 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 44.45 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:3588"
+			(at 44.45 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 44.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df864184-589a-4c39-aeed-3f808aaad1cb")
+		)
+		(pin "2"
+			(uuid "757c4509-463e-48ad-b939-0d1fb27e0512")
 		)
 		(instances
 			(project "PS-LVDistributionPCB"
@@ -698,16 +1662,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 89.916 89.662 270)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 60.96 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b80fdad3-f491-4df3-9816-61957dfd9c34")
-		(property "Reference" "#PWR05"
-			(at 83.566 89.662 0)
+		(uuid "21073c97-ce4d-4b33-a8d3-893fda35f113")
+		(property "Reference" "J3"
+			(at 55.88 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 58.42 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,16 +1697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_A"
-			(at 83.566 89.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.916 89.662 0)
+		(property "Datasheet" "~"
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,8 +1706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 89.916 89.662 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,8 +1715,135 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 89.916 89.662 0)
+		(pin "2"
+			(uuid "b203013f-faa9-4935-b3ca-d05117347dc7")
+		)
+		(pin "1"
+			(uuid "30fd29a5-4f74-485b-be2e-63e7a03f5e4e")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 60.96 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26b3f7a7-6086-410e-8b62-de6b17f643b3")
+		(property "Reference" "J6"
+			(at 55.88 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 58.42 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e41561a4-d806-4080-8fb0-d035684caf5d")
+		)
+		(pin "1"
+			(uuid "da588ff2-7cbc-472c-a6be-4e49d7bfca29")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27bf6945-bba0-40a1-9486-ba7c4ba5f174")
+		(property "Reference" "D6"
+			(at 127 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 127 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +1852,1886 @@
 			)
 		)
 		(pin "1"
-			(uuid "7580830d-81b1-4c14-a2ed-0ab588da813b")
+			(uuid "1ef63ca0-2e96-4887-a33f-52bbf7607026")
+		)
+		(pin "2"
+			(uuid "5a611916-3710-468a-a791-feb88a7ad3f2")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 63.5 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3303881c-2a64-4b8d-bea1-3c630168e638")
+		(property "Reference" "#PWR06"
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "810a53f4-96f8-48ec-9ed3-ddcc5fc20119")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d55af08-61ad-44b7-bd12-fa37edd27fbd")
+		(property "Reference" "R20"
+			(at 58.42 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 58.42 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 58.42 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a9c05d-c452-4095-9aa8-d46bb959e3eb")
+		)
+		(pin "2"
+			(uuid "379660c4-a74c-4920-9c77-25c9ebcafa2a")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e05dad6-aae5-4361-a7f1-41cd0be0f57e")
+		(property "Reference" "D1"
+			(at 66.04 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 66.04 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97d3f530-27d8-443c-b50d-15528728ab45")
+		)
+		(pin "2"
+			(uuid "4cf4b38c-573d-4b0d-a5fb-b7f76d9ea122")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "469693b6-aa2e-493f-ad92-d62f8da21aa5")
+		(property "Reference" "R6"
+			(at 119.38 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 119.38 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.38 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "320b7858-a4ca-4506-99e7-9e3afdf09902")
+		)
+		(pin "2"
+			(uuid "4ec2f0f2-0c71-4b95-a7c3-d537cd3f2df6")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 124.46 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4da04c8f-c9c1-4dba-9aff-34cc836c2735")
+		(property "Reference" "#PWR012"
+			(at 124.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac49c9b6-17be-49ab-a20b-7e8b6adf8ad6")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 60.96 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e9422b-403c-4779-9cb9-fc1c1b6f7b92")
+		(property "Reference" "J7"
+			(at 55.88 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 58.42 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8d51f27-aa9f-431e-8435-450450ed93d4")
+		)
+		(pin "1"
+			(uuid "a91d6d52-bbe8-4e31-8789-4dd4961959e2")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 44.45 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c2082cf-6e3e-4b0f-8b5e-fe1286a381ba")
+		(property "Reference" "F4"
+			(at 44.45 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 44.45 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:3588"
+			(at 44.45 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "753239b3-6a5c-4130-857b-8eede0af991b")
+		)
+		(pin "2"
+			(uuid "d854a40e-f92a-4c47-9e6e-0e74e169e069")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e0d9a8f-2634-4ae3-862d-e81121cf93f6")
+		(property "Reference" "R2"
+			(at 58.42 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 58.42 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 58.42 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b8f13e3-f047-4cef-ba0c-2f44d1bf3490")
+		)
+		(pin "2"
+			(uuid "6766fb23-4bb2-4a63-81fb-417cacdf1be0")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 105.41 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "741bfede-b7e5-4609-9600-a4a8e8ac1a83")
+		(property "Reference" "F8"
+			(at 105.41 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 105.41 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:3588"
+			(at 105.41 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ba68ab-eae2-4b7c-9c00-b089ba9e3806")
+		)
+		(pin "2"
+			(uuid "0b430b11-8d04-478d-b3c5-1c3aea294216")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 63.5 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789e152a-3202-49bd-8860-4458525eca97")
+		(property "Reference" "#PWR011"
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20be33d4-f3bf-4d18-a47a-a9f2ddcfbec5")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 60.96 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91d8ae17-1e7d-4e69-ae56-897ae1c0629a")
+		(property "Reference" "J22"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 58.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6d25eca-c6b5-4c6d-8446-4acbee5b802f")
+		)
+		(pin "1"
+			(uuid "a84d1d89-702f-42d2-b624-b775a4297ebd")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93719c21-7a6a-47c5-8652-187f3f42ea20")
+		(property "Reference" "D4"
+			(at 127 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 127 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b69f3a7-10d5-45ef-90ea-1ede38aa8b29")
+		)
+		(pin "2"
+			(uuid "e150983b-c390-4660-8335-939473ca1b66")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96627c1e-0d36-4780-9fa5-edd498f496c9")
+		(property "Reference" "R4"
+			(at 119.38 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 119.38 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.38 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e7e62d6-19ce-4bdf-9e61-6e388b7a182b")
+		)
+		(pin "2"
+			(uuid "095a9da5-a71d-49cf-8d21-993094d4a03a")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "995d5de6-130b-4d41-9a8f-c3b8920d7caa")
+		(property "Reference" "R1"
+			(at 58.42 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 58.42 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 58.42 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edbb450a-8b5f-42ee-8357-7a3b3264ea3b")
+		)
+		(pin "2"
+			(uuid "15de74bc-69ab-4701-8024-8332ab71b1ea")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 44.45 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c0d0e1b-a1f4-4b26-ad86-646f83ffd603")
+		(property "Reference" "F22"
+			(at 44.45 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 44.45 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:3588"
+			(at 44.45 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c43ae53d-194a-4468-adbf-978324f87197")
+		)
+		(pin "2"
+			(uuid "d5c6afb9-1139-4369-9618-f6caec1ee267")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "F22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 121.92 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1040a39-5089-454e-9b6e-532ff3c435db")
+		(property "Reference" "J8"
+			(at 116.84 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 119.38 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a441df1-6ac6-4595-94d9-b37e8e20e325")
+		)
+		(pin "1"
+			(uuid "4fe4faa1-a459-4544-b937-caa019f3fc11")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1c1d109-8def-47fd-95a2-d1cb9f5d1d5a")
+		(property "Reference" "R5"
+			(at 119.38 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 119.38 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.38 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b496e3-8614-4a85-82f6-ccc4cfe1f24e")
+		)
+		(pin "2"
+			(uuid "41dae158-3680-4a5b-b617-0f674c159162")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3b32d0b-e321-4d36-8142-754b74eec2a0")
+		(property "Reference" "D3"
+			(at 66.04 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 66.04 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067cc77d-00ed-4ebe-9290-53e46ceda454")
+		)
+		(pin "2"
+			(uuid "14277daf-6f3b-45bb-b0da-f89860cd6d45")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 124.46 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a475d638-9670-4b85-b4ff-ae4aed12ffd6")
+		(property "Reference" "#PWR014"
+			(at 124.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 124.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "950f216b-cf74-4ab9-a806-8a0828530a1f")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 121.92 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a665958c-a906-419e-ad39-27888a133b3e")
+		(property "Reference" "J10"
+			(at 116.84 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 119.38 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a85badff-5923-45b2-9201-2ef43944445e")
+		)
+		(pin "1"
+			(uuid "20f4247e-b801-4c40-845d-ffd9139753d4")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aff54d1c-ffc8-425a-95a0-24b07dc219bf")
+		(property "Reference" "D5"
+			(at 127 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 127 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ef198a-48cc-4de6-a285-400821422e32")
+		)
+		(pin "2"
+			(uuid "24ff509e-006f-49a1-8b02-f36ba717e214")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19f7edb-de43-4cb9-85f5-af8d221f5243")
+		(property "Reference" "D2"
+			(at 66.04 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 66.04 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afdaaa2b-df3d-4c1d-a499-da09d7847cc7")
+		)
+		(pin "2"
+			(uuid "d249dc6b-79d6-44bd-8fa5-cb3037bc8d35")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7109c3f-7111-4c86-a3b2-41150541a749")
+		(property "Reference" "R3"
+			(at 58.42 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505"
+			(at 58.42 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 58.42 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d224f37-5a6a-4463-a148-79addeb1c449")
+		)
+		(pin "2"
+			(uuid "031dc455-7838-4e18-9a2a-8faf4dd9565c")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 105.41 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d36b5ed4-a898-49c9-af88-564bdb329486")
+		(property "Reference" "F7"
+			(at 105.41 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 105.41 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:3588"
+			(at 105.41 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5464b55-752a-49df-b1ef-6ea853158584")
+		)
+		(pin "2"
+			(uuid "fb068e38-9333-4ea2-aa2a-d33c2bfb2cf9")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7aa3d47-c773-4ead-8100-d602d61d5031")
+		(property "Reference" "D20"
+			(at 66.04 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mA"
+			(at 66.04 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "954fcd57-6c11-434e-a8c9-47f3ab0f89ac")
+		)
+		(pin "2"
+			(uuid "bb51a74e-8840-4aba-a175-aebb3d5c1239")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 121.92 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d992d2bf-9369-467f-9842-c1171d9914b7")
+		(property "Reference" "J9"
+			(at 116.84 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRIT OUT"
+			(at 119.38 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d39029e6-25bb-4ca6-be7a-eefdd2ed12f3")
+		)
+		(pin "1"
+			(uuid "13c9bba5-3837-45d2-b6f5-61cf5856a001")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 105.41 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eec79af3-2334-484d-8b33-bc038a07fafd")
+		(property "Reference" "F6"
+			(at 105.41 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 105.41 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:3588"
+			(at 105.41 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b09911-75e9-4922-a981-9c7023f648d3")
+		)
+		(pin "2"
+			(uuid "88ae9eef-365d-4ba5-85da-47cb7fadc063")
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19de089-394a-4fcc-b065-158ecb414df5")
+		(property "Reference" "#PWR05"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2594c87-8e84-41eb-b3cf-4e34cf1d266a")
 		)
 		(instances
 			(project "PS-LVDistributionPCB"
@@ -763,35 +3743,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 141.224 66.802 0)
+		(lib_id "power:GND1")
+		(at 124.46 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8ba95f0-c78a-4329-952c-8118a3fb8cf6")
-		(property "Reference" "J3"
-			(at 143.51 66.8019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power Conn"
-			(at 143.51 69.3419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 141.224 66.802 0)
+		(uuid "f34814c9-4e6a-458d-831b-e09611497718")
+		(property "Reference" "#PWR013"
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,8 +3760,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 141.224 66.802 0)
+		(property "Value" "GND"
+			(at 124.46 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,8 +3777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 141.224 66.802 0)
+		(property "Datasheet" ""
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,16 +3786,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ba2ba3d8-e9f7-491b-a50e-3fadd3625e81")
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "70e73c8e-c68f-4c97-b04a-742734aa08cc")
+			(uuid "0ec52921-75a0-462d-8dc5-d7e4850a4640")
 		)
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5/89225460-8dd3-469b-8cbf-e885cf1901f0"
-					(reference "J3")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
