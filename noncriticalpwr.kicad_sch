@@ -2790,7 +2790,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 115.57 131.826 90)
 			(effects
 				(font
@@ -3127,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 55.88 81.026 90)
 			(effects
 				(font
@@ -3194,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 55.88 133.096 90)
 			(effects
 				(font
@@ -3393,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 115.57 159.766 90)
 			(effects
 				(font
@@ -3460,7 +3460,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 116.84 53.086 90)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 55.88 107.696 90)
 			(effects
 				(font
@@ -3927,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 116.84 27.686 90)
 			(effects
 				(font
@@ -3994,7 +3994,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 55.88 53.086 90)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 116.84 81.026 90)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 55.88 27.686 90)
 			(effects
 				(font
@@ -5462,7 +5462,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 116.84 106.426 90)
 			(effects
 				(font
@@ -5732,7 +5732,7 @@
 				)
 			)
 		)
-		(property "Value" "505"
+		(property "Value" "1k"
 			(at 55.88 159.766 90)
 			(effects
 				(font
