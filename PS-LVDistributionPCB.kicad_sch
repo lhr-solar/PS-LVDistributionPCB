@@ -1116,7 +1116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d6811c-5c5b-465e-a603-27b1709d85fd")
-		(property "Reference" "J5"
+		(property "Reference" "J21"
 			(at 138.43 48.2599 0)
 			(effects
 				(font
@@ -1170,7 +1170,7 @@
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "J5")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -1318,8 +1318,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6fccc84-bc6e-4b87-a6f7-d1a9cf9c11d0")
-		(property "Reference" "F3"
-			(at 121.92 40.386 90)
+		(property "Reference" "F21"
+			(at 121.92 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1327,7 @@
 			)
 		)
 		(property "Value" "30A"
-			(at 121.92 42.926 90)
+			(at 121.92 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1370,7 @@
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "F3")
+					(reference "F21")
 					(unit 1)
 				)
 			)
@@ -1386,8 +1386,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c65ae89f-9033-44f7-882b-a5757c5c8f89")
-		(property "Reference" "F21"
-			(at 121.92 67.056 90)
+		(property "Reference" "F20"
+			(at 121.92 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1395,7 @@
 			)
 		)
 		(property "Value" "30A"
-			(at 121.92 69.596 90)
+			(at 121.92 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1438,7 @@
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "F21")
+					(reference "F20")
 					(unit 1)
 				)
 			)
@@ -1454,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0d198e3-bbf4-4929-a64d-1a41b427e4ba")
-		(property "Reference" "J21"
+		(property "Reference" "J20"
 			(at 138.43 74.9299 0)
 			(effects
 				(font
@@ -1508,7 +1508,7 @@
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "J21")
+					(reference "J20")
 					(unit 1)
 				)
 			)
