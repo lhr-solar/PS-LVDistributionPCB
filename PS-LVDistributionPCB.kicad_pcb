@@ -513,7 +513,7 @@
 			(pintype "passive")
 			(uuid "e93e58e1-8bcc-4b95-b2e6-70f1d9d8e7e3")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -915,7 +915,7 @@
 			(pintype "passive")
 			(uuid "c64cd423-65f0-40f7-a242-31b85196f4c4")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -1317,7 +1317,7 @@
 			(pintype "passive")
 			(uuid "69f25991-c652-405f-8e64-3a95834cc940")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -2145,7 +2145,7 @@
 			(pintype "passive")
 			(uuid "0c025973-d60a-4f1b-a9e5-a1e68eec13d2")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -4104,7 +4104,7 @@
 			(pintype "passive")
 			(uuid "203923d8-f126-4109-8aaa-88c9aaf41bc7")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -4506,7 +4506,7 @@
 			(pintype "passive")
 			(uuid "117f99ac-c69e-4aa1-ae63-cc691d341893")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -6061,7 +6061,7 @@
 			(pintype "passive")
 			(uuid "5fcfc043-5ed2-4637-bfc6-a4f8e5e32e39")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -6463,7 +6463,7 @@
 			(pintype "passive")
 			(uuid "256ea046-bc50-4756-a1b8-b684d706b797")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -6865,7 +6865,7 @@
 			(pintype "passive")
 			(uuid "3996cb8f-2036-4273-b9fb-dec7d74d686c")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -7715,7 +7715,7 @@
 			(pintype "passive")
 			(uuid "155ea05f-98a8-4448-b000-dab9a8309240")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -8352,7 +8352,7 @@
 			(pintype "passive")
 			(uuid "9202fd1f-41c8-480d-b4c5-c9bb91af7daa")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -8967,7 +8967,7 @@
 			(pintype "passive")
 			(uuid "9e474927-c8a7-46c0-ae93-22f0f7c9361f")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -10287,7 +10287,7 @@
 			(pintype "passive")
 			(uuid "6252f898-201c-4999-bc0b-dd8172ca730f")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -11607,7 +11607,7 @@
 			(pintype "passive")
 			(uuid "b588e9fa-ead2-4f75-abb8-e52331eae29c")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -13331,7 +13331,7 @@
 			(pintype "passive")
 			(uuid "8415d9d4-0b44-4a5e-b60f-eddab201e618")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -13733,7 +13733,7 @@
 			(pintype "passive")
 			(uuid "0fbc5cfe-558d-493d-9dfc-1331819d448c")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -14583,7 +14583,7 @@
 			(pintype "passive")
 			(uuid "8278be67-efd7-4cf0-be37-f49d69ac1b8a")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -15859,7 +15859,7 @@
 			(pintype "passive")
 			(uuid "15ba113e-773f-423e-9a4e-b5589c5595b7")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -16261,7 +16261,7 @@
 			(pintype "passive")
 			(uuid "9a2995a2-3d16-48a9-9f19-c4f6204647d3")
 		)
-		(model "/Users/surabhi/Documents/lhr/3d models/436500215.stp"
+		(model "${KIPRJMOD}/molex_1x2_3d.stp"
 			(offset
 				(xyz 1.5 2 10)
 			)
@@ -23021,7 +23021,7 @@
 			(pintype "passive")
 			(uuid "4bf1cb55-8462-439a-9363-bc7e1b0f93f9")
 		)
-		(model "${KIPRJMOD}/sabre 1x2 3d model"
+		(model "${KIPRJMOD}/sabre_1x2_3d"
 			(offset
 				(xyz 3.5 2 7)
 			)
@@ -24441,7 +24441,7 @@
 			(pintype "passive")
 			(uuid "39a06f77-4741-4a55-bca4-8409bf39e8c3")
 		)
-		(model "${KIPRJMOD}/sabre 1x2 3d model"
+		(model "${KIPRJMOD}/sabre_1x2_3d"
 			(offset
 				(xyz 3.5 2 7)
 			)
