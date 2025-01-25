@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -448,7 +461,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -586,6 +599,74 @@
     [
       "c4f4a294-58a7-4e12-a3d4-c82fa063be77",
       "Non-Critical Fuses"
+    ],
+    [
+      "b72bae1b-f8fb-497f-abbd-36694efca097",
+      "Critical Fuses1"
+    ],
+    [
+      "4111fdfe-1fcc-4bb2-9192-3f2c5d7f36cc",
+      "Critical Fuses2"
+    ],
+    [
+      "0e93146d-5ace-49a5-b60a-5dbdc2be7e21",
+      "Critical Fuses3"
+    ],
+    [
+      "396ce50b-4b4c-4dff-8b81-60ffdff640fe",
+      "Critical Fuses4"
+    ],
+    [
+      "3d343d5f-ea66-42dd-b89e-d8730c226c48",
+      "Critical Fuses5"
+    ],
+    [
+      "82d3b830-d39d-4669-a583-e3cf5f4df988",
+      "Critical Fuses6"
+    ],
+    [
+      "51321fa4-7e7d-4384-9966-2731239abadf",
+      "Non-Critical Fuses1"
+    ],
+    [
+      "85f611f4-5816-48a5-a428-9e0e856db9ae",
+      "Non-Critical Fuses2"
+    ],
+    [
+      "263de9e2-9bcb-44c7-bb7d-d3bf366c066d",
+      "Non-Critical Fuses3"
+    ],
+    [
+      "be52c217-f59c-49b0-8ebd-705c7dac3fae",
+      "Non-Critical Fuses4"
+    ],
+    [
+      "a857b892-d7fd-4dcd-80cf-5632ad5dd0c2",
+      "Non-Critical Fuses5"
+    ],
+    [
+      "4704c24a-927d-4e3d-9a25-eccf94f40fd3",
+      "Non-Critical Fuses6"
+    ],
+    [
+      "614c3992-1675-48b5-b9e3-8a437289e9ef",
+      "Non-Critical Fuses7"
+    ],
+    [
+      "24c2380e-3122-4ed4-8f93-9bbbae8c25de",
+      "Non-Critical Fuses8"
+    ],
+    [
+      "4763536e-7ebc-46be-a770-f6b090c90a7e",
+      "Non-Critical Fuses9"
+    ],
+    [
+      "e148df88-9647-4e60-9f2c-a8647da26d9f",
+      "Non-Critical Fuses10"
+    ],
+    [
+      "52d1015b-6151-4c78-82f1-6085843c475d",
+      "Non-Critical Fuses11"
     ]
   ],
   "text_variables": {}

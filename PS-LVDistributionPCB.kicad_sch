@@ -591,30 +591,20 @@
 		)
 	)
 	(junction
-		(at 113.03 72.39)
+		(at 201.93 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23d0cdf1-21a1-4450-9f52-129bcd6658f2")
 	)
 	(junction
-		(at 113.03 45.72)
+		(at 201.93 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5125edce-db6f-4e28-b017-317da4b2c4b7")
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 76.2 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b628f16-d313-4208-9ec7-c34ec1bd043b")
-	)
-	(wire
-		(pts
-			(xy 130.81 77.47) (xy 127 77.47)
+			(xy 219.71 78.74) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -624,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 130.81 48.26)
+			(xy 219.71 46.99) (xy 219.71 49.53)
 		)
 		(stroke
 			(width 0)
@@ -634,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 130.81 74.93)
+			(xy 219.71 73.66) (xy 219.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -644,17 +634,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 39.37) (xy 82.55 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46826ba4-c959-4300-8d90-7b811bfa7a58")
-	)
-	(wire
-		(pts
-			(xy 105.41 72.39) (xy 113.03 72.39)
+			(xy 194.31 73.66) (xy 201.93 73.66)
 		)
 		(stroke
 			(width 0)
@@ -664,7 +644,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 118.11 72.39)
+			(xy 201.93 73.66) (xy 207.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -674,17 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 54.61) (xy 82.55 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547698ca-824a-4fb8-b995-081b2bed655b")
-	)
-	(wire
-		(pts
-			(xy 105.41 63.5) (xy 105.41 72.39)
+			(xy 194.31 64.77) (xy 194.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -694,7 +664,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 125.73 72.39)
+			(xy 219.71 73.66) (xy 214.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -704,7 +674,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 45.72) (xy 118.11 45.72)
+			(xy 201.93 46.99) (xy 207.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -714,7 +684,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 127 54.61)
+			(xy 215.9 52.07) (xy 215.9 55.88)
 		)
 		(stroke
 			(width 0)
@@ -724,7 +694,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 127 50.8)
+			(xy 219.71 52.07) (xy 215.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -734,7 +704,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 125.73 45.72)
+			(xy 219.71 46.99) (xy 214.63 46.99)
 		)
 		(stroke
 			(width 0)
@@ -744,17 +714,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 57.15) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97bdffbd-4416-4acf-8382-6ddd96123bbf")
-	)
-	(wire
-		(pts
-			(xy 127 77.47) (xy 127 81.28)
+			(xy 215.9 78.74) (xy 215.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -764,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 45.72) (xy 113.03 45.72)
+			(xy 194.31 46.99) (xy 201.93 46.99)
 		)
 		(stroke
 			(width 0)
@@ -774,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 39.37) (xy 105.41 45.72)
+			(xy 194.31 40.64) (xy 194.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -783,8 +743,20 @@
 		(uuid "bd46f961-1ea5-4c89-82b8-b51f0eeef1a2")
 	)
 	(rectangle
-		(start 97.79 30.48)
-		(end 154.94 88.9)
+		(start 153.67 120.65)
+		(end 175.26 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 044e9f54-8ff4-44f4-acf2-56ca374a6393)
+	)
+	(rectangle
+		(start 186.69 31.75)
+		(end 243.84 90.17)
 		(stroke
 			(width 0)
 			(type default)
@@ -795,8 +767,8 @@
 		(uuid 47df4e4a-84a5-4f6b-94ac-75fc1ed6ddae)
 	)
 	(rectangle
-		(start 44.45 30.48)
-		(end 90.17 69.85)
+		(start 49.53 31.75)
+		(end 88.9 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -804,12 +776,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 576a644b-fa92-4c55-991d-6768d60ee313)
+		(uuid 9ca5b748-22d4-483f-9245-63db09dc06dc)
 	)
-	(text_box "Fuses"
-		(exclude_from_sim no)
-		(at 82.55 66.04 0)
-		(size 7.62 3.81)
+	(rectangle
+		(start 72.39 134.112)
+		(end 88.9 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -817,17 +788,23 @@
 		(fill
 			(type none)
 		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
+		(uuid e0b79055-1ffb-4064-a305-bc295ee3f1a4)
+	)
+	(rectangle
+		(start 101.6 31.75)
+		(end 175.26 125.73)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "89f6367a-5549-4bcc-9730-6116bda62e7c")
+		(fill
+			(type none)
+		)
+		(uuid e2f41360-d13a-4a7e-9ee1-3e859729a01e)
 	)
 	(text_box "PWR Connectors"
 		(exclude_from_sim no)
-		(at 137.16 85.09 0)
+		(at 226.06 86.36 0)
 		(size 17.78 3.81)
 		(stroke
 			(width 0)
@@ -844,9 +821,73 @@
 		)
 		(uuid "a2670eb8-bd3d-4c44-af67-5cdf60776a55")
 	)
+	(text "Non Critical Fuses"
+		(exclude_from_sim no)
+		(at 164.338 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9049b48d-47d2-40f9-9863-5ae1f4989d47")
+	)
+	(text "Critical Fuses"
+		(exclude_from_sim no)
+		(at 80.772 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7b12450-cb3a-472f-a721-da66cacbde9e")
+	)
+	(global_label "+12V_NON"
+		(shape input)
+		(at 194.31 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62674b36-dca0-453a-bbc4-179441d2f891")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3343 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V CRIT"
+		(shape input)
+		(at 194.31 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64493d29-40ad-4eb7-b926-94070bb56b6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.4552 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 105.41 39.37 0)
+		(at 194.31 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -855,7 +896,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f100a8-0ed3-4120-9c6d-7a9a0b4d5b13")
 		(property "Reference" "#PWR041"
-			(at 105.41 43.18 0)
+			(at 194.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,15 +905,16 @@
 			)
 		)
 		(property "Value" "+12V_NON"
-			(at 105.41 34.29 0)
+			(at 194.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 39.37 0)
+			(at 194.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 39.37 0)
+			(at 194.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 105.41 39.37 0)
+			(at 194.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +954,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 127 54.61 0)
+		(at 215.9 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -920,7 +962,7 @@
 		(dnp no)
 		(uuid "432a635e-2bde-4742-8b0d-773a8862aff3")
 		(property "Reference" "#PWR08"
-			(at 127 60.96 0)
+			(at 215.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 58.42 0)
+			(at 215.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 54.61 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 54.61 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 127 54.61 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,74 +1018,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 82.55 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61d969d5-5b44-402e-9ad8-754f7342bc9f")
-		(property "Reference" "#PWR043"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_NON"
-			(at 82.55 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 82.55 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3711f894-ab98-4ca3-bad6-43dc2ef6c88c")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
-		(at 127 81.28 0)
+		(at 215.9 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1051,7 +1027,7 @@
 		(dnp no)
 		(uuid "80539f1e-8c51-4f2a-82c0-1d1e5285b066")
 		(property "Reference" "#PWR040"
-			(at 127 87.63 0)
+			(at 215.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 85.344 0)
+			(at 215.9 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 81.28 0)
+			(at 215.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 81.28 0)
+			(at 215.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 127 81.28 0)
+			(at 215.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1084,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 135.89 48.26 0)
+		(at 224.79 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1117,7 +1093,7 @@
 		(fields_autoplaced yes)
 		(uuid "82d6811c-5c5b-465e-a603-27b1709d85fd")
 		(property "Reference" "J21"
-			(at 138.43 48.2599 0)
+			(at 227.33 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1102,7 @@
 			)
 		)
 		(property "Value" "NON CRIT"
-			(at 138.43 50.7999 0)
+			(at 227.33 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1111,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical"
-			(at 135.89 48.26 0)
+			(at 224.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 48.26 0)
+			(at 224.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1129,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 48.26 0)
+			(at 224.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,16 +1154,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 113.03 45.72 0)
+		(at 201.93 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "920ba771-9bad-48e7-97f1-f8b93978965e")
 		(property "Reference" "#FLG02"
-			(at 113.03 43.815 0)
+			(at 201.93 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1171,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 113.03 40.64 0)
+			(at 201.93 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 45.72 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 45.72 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1197,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 45.72 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1219,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 105.41 63.5 0)
+		(at 194.31 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1253,7 +1228,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0064ab9-66a1-485b-8296-b8cc325899e5")
 		(property "Reference" "#PWR042"
-			(at 105.41 67.31 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,15 +1237,16 @@
 			)
 		)
 		(property "Value" "+12V_CRIT"
-			(at 105.41 58.42 0)
+			(at 194.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 63.5 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 63.5 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 105.41 63.5 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1286,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 121.92 45.72 90)
+		(at 210.82 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1319,7 +1295,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6fccc84-bc6e-4b87-a6f7-d1a9cf9c11d0")
 		(property "Reference" "F21"
-			(at 121.92 39.37 90)
+			(at 210.82 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1303,7 @@
 			)
 		)
 		(property "Value" "30A"
-			(at 121.92 41.91 90)
+			(at 210.82 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1311,7 @@
 			)
 		)
 		(property "Footprint" "footprints:3588"
-			(at 121.92 47.498 90)
+			(at 210.82 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1320,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/3568-742601.pdf"
-			(at 121.92 45.72 0)
+			(at 210.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1329,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 121.92 45.72 0)
+			(at 210.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1354,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 121.92 72.39 90)
+		(at 210.82 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +1363,7 @@
 		(fields_autoplaced yes)
 		(uuid "c65ae89f-9033-44f7-882b-a5757c5c8f89")
 		(property "Reference" "F20"
-			(at 121.92 66.04 90)
+			(at 210.82 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1371,7 @@
 			)
 		)
 		(property "Value" "30A"
-			(at 121.92 68.58 90)
+			(at 210.82 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1379,7 @@
 			)
 		)
 		(property "Footprint" "footprints:3588"
-			(at 121.92 74.168 90)
+			(at 210.82 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1388,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/3568-742601.pdf"
-			(at 121.92 72.39 0)
+			(at 210.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1397,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 121.92 72.39 0)
+			(at 210.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1422,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 135.89 74.93 0)
+		(at 224.79 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1455,7 +1431,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0d198e3-bbf4-4929-a64d-1a41b427e4ba")
 		(property "Reference" "J20"
-			(at 138.43 74.9299 0)
+			(at 227.33 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1440,7 @@
 			)
 		)
 		(property "Value" "CRIT"
-			(at 138.43 77.4699 0)
+			(at 227.33 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1449,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical"
-			(at 135.89 74.93 0)
+			(at 224.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 74.93 0)
+			(at 224.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1467,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 74.93 0)
+			(at 224.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,16 +1492,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 113.03 72.39 0)
+		(at 201.93 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edf928f0-49a9-4a39-83f5-d6dbfe941e51")
 		(property "Reference" "#FLG03"
-			(at 113.03 70.485 0)
+			(at 201.93 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1509,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 113.03 67.31 0)
+			(at 201.93 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 72.39 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 72.39 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1535,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 72.39 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,74 +1555,494 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 82.55 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 54.61 80.01)
+		(size 29.21 7.62)
 		(fields_autoplaced yes)
-		(uuid "f0024054-1d49-471d-b581-204c160c069f")
-		(property "Reference" "#PWR044"
-			(at 82.55 58.42 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e93146d-5ace-49a5-b60a-5dbdc2be7e21")
+		(property "Sheetname" "Critical Fuses3"
+			(at 54.61 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "+12V_CRIT"
-			(at 82.55 49.53 0)
+		(property "Sheetfile" "criticalpwr.kicad_sch"
+			(at 54.61 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 82.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 82.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf6a5477-385b-4602-a21f-5dbe2e4ab9b5")
 		)
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR044")
-					(unit 1)
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 46.99 53.34)
+		(at 140.97 66.04)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24c2380e-3122-4ed4-8f93-9bbbae8c25de")
+		(property "Sheetname" "Non-Critical Fuses8"
+			(at 140.97 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 169.164 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 80.01)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "263de9e2-9bcb-44c7-bb7d-d3bf366c066d")
+		(property "Sheetname" "Non-Critical Fuses3"
+			(at 106.68 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 134.874 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 93.98)
+		(size 29.21 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "396ce50b-4b4c-4dff-8b81-60ffdff640fe")
+		(property "Sheetname" "Critical Fuses4"
+			(at 54.61 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "criticalpwr.kicad_sch"
+			(at 54.61 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 107.95)
+		(size 29.21 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d343d5f-ea66-42dd-b89e-d8730c226c48")
+		(property "Sheetname" "Critical Fuses5"
+			(at 54.61 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "criticalpwr.kicad_sch"
+			(at 54.61 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 66.04)
+		(size 29.21 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4111fdfe-1fcc-4bb2-9192-3f2c5d7f36cc")
+		(property "Sheetname" "Critical Fuses2"
+			(at 54.61 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "criticalpwr.kicad_sch"
+			(at 54.61 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 38.1)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4704c24a-927d-4e3d-9a25-eccf94f40fd3")
+		(property "Sheetname" "Non-Critical Fuses6"
+			(at 140.97 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 169.164 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 80.01)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4763536e-7ebc-46be-a770-f6b090c90a7e")
+		(property "Sheetname" "Non-Critical Fuses9"
+			(at 140.97 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 169.164 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 52.07)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51321fa4-7e7d-4384-9966-2731239abadf")
+		(property "Sheetname" "Non-Critical Fuses1"
+			(at 106.68 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 134.874 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 107.95)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52d1015b-6151-4c78-82f1-6085843c475d")
+		(property "Sheetname" "Non-Critical Fuses11"
+			(at 140.97 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 169.164 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 52.07)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "614c3992-1675-48b5-b9e3-8a437289e9ef")
+		(property "Sheetname" "Non-Critical Fuses7"
+			(at 140.97 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 169.164 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 121.92)
+		(size 29.21 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82d3b830-d39d-4669-a583-e3cf5f4df988")
+		(property "Sheetname" "Critical Fuses6"
+			(at 54.61 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "criticalpwr.kicad_sch"
+			(at 54.61 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 66.04)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85f611f4-5816-48a5-a428-9e0e856db9ae")
+		(property "Sheetname" "Non-Critical Fuses2"
+			(at 106.68 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 134.874 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 38.1)
 		(size 29.21 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -1659,7 +2054,7 @@
 		)
 		(uuid "89225460-8dd3-469b-8cbf-e885cf1901f0")
 		(property "Sheetname" "Critical Fuses"
-			(at 46.99 52.6284 0)
+			(at 54.61 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,23 +2063,13 @@
 			)
 		)
 		(property "Sheetfile" "criticalpwr.kicad_sch"
-			(at 46.99 61.5446 0)
+			(at 54.61 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "+12V_CRIT" input
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a3a8ca25-e564-4e86-a17a-4d5f33675ec4")
 		)
 		(instances
 			(project "PS-LVDistributionPCB"
@@ -1695,7 +2080,119 @@
 		)
 	)
 	(sheet
-		(at 46.99 38.1)
+		(at 106.68 107.95)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a857b892-d7fd-4dcd-80cf-5632ad5dd0c2")
+		(property "Sheetname" "Non-Critical Fuses5"
+			(at 106.68 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 134.874 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 52.07)
+		(size 29.21 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b72bae1b-f8fb-497f-abbd-36694efca097")
+		(property "Sheetname" "Critical Fuses1"
+			(at 54.61 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "criticalpwr.kicad_sch"
+			(at 54.61 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 93.98)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be52c217-f59c-49b0-8ebd-705c7dac3fae")
+		(property "Sheetname" "Non-Critical Fuses4"
+			(at 106.68 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 134.874 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 38.1)
 		(size 29.21 7.62)
 		(stroke
 			(width 0.1524)
@@ -1706,7 +2203,7 @@
 		)
 		(uuid "c4f4a294-58a7-4e12-a3d4-c82fa063be77")
 		(property "Sheetname" "Non-Critical Fuses"
-			(at 46.99 37.3884 0)
+			(at 106.68 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +2212,7 @@
 			)
 		)
 		(property "Sheetfile" "noncriticalpwr.kicad_sch"
-			(at 75.184 46.482 0)
+			(at 134.874 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,20 +2220,47 @@
 				(justify right top)
 			)
 		)
-		(pin "+12V_NON" input
-			(at 76.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "671a5d7f-5ac3-46a0-89f3-22136afd4e5f")
-		)
 		(instances
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 93.98)
+		(size 29.21 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e148df88-9647-4e60-9f2c-a8647da26d9f")
+		(property "Sheetname" "Non-Critical Fuses10"
+			(at 140.97 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noncriticalpwr.kicad_sch"
+			(at 169.164 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "PS-LVDistributionPCB"
+				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
+					(page "19")
 				)
 			)
 		)
