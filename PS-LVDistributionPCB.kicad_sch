@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "bae4e46c-28ae-4193-a5e0-928c081802f5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,14 +76,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -96,14 +98,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -143,9 +145,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Fuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -276,12 +281,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -353,7 +363,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -365,7 +375,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -396,12 +406,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -492,12 +507,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -588,7 +608,108 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 153.67 120.65)
+		(end 175.26 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 044e9f54-8ff4-44f4-acf2-56ca374a6393)
+	)
+	(rectangle
+		(start 186.69 31.75)
+		(end 243.84 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47df4e4a-84a5-4f6b-94ac-75fc1ed6ddae)
+	)
+	(rectangle
+		(start 49.53 31.75)
+		(end 88.9 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ca5b748-22d4-483f-9245-63db09dc06dc)
+	)
+	(rectangle
+		(start 72.39 134.112)
+		(end 88.9 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0b79055-1ffb-4064-a305-bc295ee3f1a4)
+	)
+	(rectangle
+		(start 101.6 31.75)
+		(end 175.26 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e2f41360-d13a-4a7e-9ee1-3e859729a01e)
+	)
+	(text "Non Critical Fuses"
+		(exclude_from_sim no)
+		(at 164.338 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9049b48d-47d2-40f9-9863-5ae1f4989d47")
+	)
+	(text "Critical Fuses"
+		(exclude_from_sim no)
+		(at 80.772 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7b12450-cb3a-472f-a721-da66cacbde9e")
+	)
+	(text_box "PWR Connectors"
+		(exclude_from_sim no)
+		(at 226.06 86.36 0)
+		(size 17.78 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a2670eb8-bd3d-4c44-af67-5cdf60776a55")
 	)
 	(junction
 		(at 204.47 46.99)
@@ -741,105 +862,6 @@
 			(type default)
 		)
 		(uuid "bd46f961-1ea5-4c89-82b8-b51f0eeef1a2")
-	)
-	(rectangle
-		(start 153.67 120.65)
-		(end 175.26 125.73)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 044e9f54-8ff4-44f4-acf2-56ca374a6393)
-	)
-	(rectangle
-		(start 186.69 31.75)
-		(end 243.84 90.17)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 47df4e4a-84a5-4f6b-94ac-75fc1ed6ddae)
-	)
-	(rectangle
-		(start 49.53 31.75)
-		(end 88.9 139.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9ca5b748-22d4-483f-9245-63db09dc06dc)
-	)
-	(rectangle
-		(start 72.39 134.112)
-		(end 88.9 139.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e0b79055-1ffb-4064-a305-bc295ee3f1a4)
-	)
-	(rectangle
-		(start 101.6 31.75)
-		(end 175.26 125.73)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e2f41360-d13a-4a7e-9ee1-3e859729a01e)
-	)
-	(text_box "PWR Connectors"
-		(exclude_from_sim no)
-		(at 226.06 86.36 0)
-		(size 17.78 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a2670eb8-bd3d-4c44-af67-5cdf60776a55")
-	)
-	(text "Non Critical Fuses"
-		(exclude_from_sim no)
-		(at 164.338 123.444 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9049b48d-47d2-40f9-9863-5ae1f4989d47")
-	)
-	(text "Critical Fuses"
-		(exclude_from_sim no)
-		(at 80.772 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c7b12450-cb3a-472f-a721-da66cacbde9e")
 	)
 	(global_label "+12V_NON"
 		(shape input)
@@ -1558,6 +1580,10 @@
 	(sheet
 		(at 54.61 80.01)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1596,6 +1622,10 @@
 	(sheet
 		(at 140.97 66.04)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1633,6 +1663,10 @@
 	(sheet
 		(at 106.68 80.01)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1670,6 +1704,10 @@
 	(sheet
 		(at 54.61 93.98)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1708,6 +1746,10 @@
 	(sheet
 		(at 54.61 107.95)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1746,6 +1788,10 @@
 	(sheet
 		(at 54.61 66.04)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1784,6 +1830,10 @@
 	(sheet
 		(at 140.97 38.1)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1821,6 +1871,10 @@
 	(sheet
 		(at 140.97 80.01)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1858,6 +1912,10 @@
 	(sheet
 		(at 106.68 52.07)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1895,6 +1953,10 @@
 	(sheet
 		(at 140.97 107.95)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1932,6 +1994,10 @@
 	(sheet
 		(at 140.97 52.07)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1969,6 +2035,10 @@
 	(sheet
 		(at 54.61 121.92)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2007,6 +2077,10 @@
 	(sheet
 		(at 106.68 66.04)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2044,6 +2118,10 @@
 	(sheet
 		(at 54.61 38.1)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2082,6 +2160,10 @@
 	(sheet
 		(at 106.68 107.95)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2119,6 +2201,10 @@
 	(sheet
 		(at 54.61 52.07)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2157,6 +2243,10 @@
 	(sheet
 		(at 106.68 93.98)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2194,6 +2284,10 @@
 	(sheet
 		(at 106.68 38.1)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2231,6 +2325,10 @@
 	(sheet
 		(at 140.97 93.98)
 		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2270,4 +2368,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
