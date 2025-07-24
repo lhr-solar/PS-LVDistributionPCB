@@ -1,0 +1,42 @@
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Jan 27 2025, 07:08:36) [MSC v.1942 64 bit (AMD64)]'
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.0
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x0000027AD07004C0>
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J15 on root level
+07-23 21:53:30 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='F1'
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 94:By Sheet GUI initialized
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 103:Ref fp:Footprint(ref='F1', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'FOOTPRINT *' at 0x0000027AD8931AD0> >, fp_id='144E7670-AAEA-4A7D-90E5-853082AB39E8', sheet_id=['/Power Output/'], filename=['output.kicad_sch'])
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 104:Levels:['output.kicad_sch']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 106:Selecting: 1
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 110:Should invoke level_changed()
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 288:Level_changed() invoked
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 291:self.ref_fp.sheet_id[index] = '/Power Output/'
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 292:self.ref_fp.sheet_id = ['/Power Output/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.place_footprints 284:constructing a list of sheets suitable for replication on level:'/Power Output/', file:'output.kicad_sch'
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.place_footprints 308:suitable sheets are:[['/Power Output1/'], ['/Power Output2/'], ['/Power Output3/'], ['/Power Output4/'], ['/Power Output5/'], ['/Power Output6/'], ['/Power Output7/'], ['/Power Output8/'], ['/Power Output9/'], ['/Power Output10/'], ['/Power Output11/'], ['/Power Output12/'], ['/Power Output13/']]
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 306:self.list_sheetsChoices: [['/Power Output1/'], ['/Power Output2/'], ['/Power Output3/'], ['/Power Output4/'], ['/Power Output5/'], ['/Power Output6/'], ['/Power Output7/'], ['/Power Output8/'], ['/Power Output9/'], ['/Power Output10/'], ['/Power Output11/'], ['/Power Output12/'], ['/Power Output13/']]
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output6/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output3/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output5/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output2/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output9/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output12/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output8/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output10/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output11/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output13/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output4/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output1/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output7/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Power Output/']
+07-23 21:53:31 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 314:self.ref_list: ['F7', 'F4', 'F6', 'F3', 'F10', 'F13', 'F9', 'F11', 'F12', 'F14', 'F5', 'F2', 'F8']
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 195:Saving config sheet
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 220:Preparing config for sheet matrix
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 227:Saving config file
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 229:Saved the config file
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 746:Sheets selected: [['/Power Output1/'], ['/Power Output2/'], ['/Power Output3/'], ['/Power Output4/'], ['/Power Output5/'], ['/Power Output6/'], ['/Power Output7/'], ['/Power Output8/'], ['/Power Output9/'], ['/Power Output10/'], ['/Power Output11/'], ['/Power Output12/'], ['/Power Output13/']]
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 755:Footprints to place: ['F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', 'F13', 'F14']
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.place_footprints 427:Starting placing with matrix layout
+07-23 21:53:33 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 828:Placing complete
