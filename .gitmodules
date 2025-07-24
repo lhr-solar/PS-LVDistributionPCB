@@ -1,3 +1,6 @@
 [submodule "UTSVT-KiCadLibraries"]
 	path = UTSVT-KiCadLibraries
 	url = https://github.com/lhr-solar/UTSVT-KiCadLibraries
+[submodule "KiCAD-Bild"]
+	path = KiCAD-Bild
+	url = https://github.com/lhr-solar/KiCAD-Bild.git

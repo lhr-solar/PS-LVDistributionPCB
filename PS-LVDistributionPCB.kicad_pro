@@ -69,16 +69,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -106,7 +111,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -119,6 +126,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -136,10 +144,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -227,6 +236,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -421,10 +431,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -437,9 +452,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -451,7 +471,7 @@
   },
   "meta": {
     "filename": "PS-LVDistributionPCB.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -466,6 +486,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.6,
@@ -474,7 +495,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -568,6 +589,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -602,6 +624,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -617,80 +640,60 @@
       "Root"
     ],
     [
-      "89225460-8dd3-469b-8cbf-e885cf1901f0",
-      "Critical Fuses"
+      "a1849b17-8bf2-4c90-964d-3f4d88c7d452",
+      "Power Output"
     ],
     [
-      "c4f4a294-58a7-4e12-a3d4-c82fa063be77",
-      "Non-Critical Fuses"
+      "5c3564df-81ec-4394-b500-8c1eff5644b2",
+      "Power Output1"
     ],
     [
-      "b72bae1b-f8fb-497f-abbd-36694efca097",
-      "Critical Fuses1"
+      "18ac63a7-3bca-4c43-b27b-65a05d7d7b87",
+      "Power Output2"
     ],
     [
-      "4111fdfe-1fcc-4bb2-9192-3f2c5d7f36cc",
-      "Critical Fuses2"
+      "68f2420e-006e-47d2-9129-3e87fca9ad04",
+      "Power Output3"
     ],
     [
-      "0e93146d-5ace-49a5-b60a-5dbdc2be7e21",
-      "Critical Fuses3"
+      "8bcb5444-63d3-40d8-951f-42e39a0c9384",
+      "Power Output4"
     ],
     [
-      "396ce50b-4b4c-4dff-8b81-60ffdff640fe",
-      "Critical Fuses4"
+      "2368929e-74fb-45db-9707-57b7d5bb9582",
+      "Power Output5"
     ],
     [
-      "3d343d5f-ea66-42dd-b89e-d8730c226c48",
-      "Critical Fuses5"
+      "e3c5a549-d3db-4a69-870b-863cbd46f0ad",
+      "Power Output6"
     ],
     [
-      "82d3b830-d39d-4669-a583-e3cf5f4df988",
-      "Critical Fuses6"
+      "2816337e-2e2f-49b6-8e14-8a47d5a2a9d1",
+      "Power Output7"
     ],
     [
-      "51321fa4-7e7d-4384-9966-2731239abadf",
-      "Non-Critical Fuses1"
+      "ce1e68f1-cba2-4e41-af5d-2c6f5daea4ec",
+      "Power Output8"
     ],
     [
-      "85f611f4-5816-48a5-a428-9e0e856db9ae",
-      "Non-Critical Fuses2"
+      "59c10fe7-a3ff-4c09-b5ab-17cf92d08f6c",
+      "Power Output9"
     ],
     [
-      "263de9e2-9bcb-44c7-bb7d-d3bf366c066d",
-      "Non-Critical Fuses3"
+      "eaa12baa-4d75-41da-8f13-104e26b06c51",
+      "Power Output11"
     ],
     [
-      "be52c217-f59c-49b0-8ebd-705c7dac3fae",
-      "Non-Critical Fuses4"
+      "0c5dc2b3-5678-4805-b517-2383e282d677",
+      "Power Output10"
     ],
     [
-      "a857b892-d7fd-4dcd-80cf-5632ad5dd0c2",
-      "Non-Critical Fuses5"
+      "38b14ef7-52c4-4c19-bee0-83aa3ed98b27",
+      "Power Output12"
     ],
     [
-      "4704c24a-927d-4e3d-9a25-eccf94f40fd3",
-      "Non-Critical Fuses6"
-    ],
-    [
-      "614c3992-1675-48b5-b9e3-8a437289e9ef",
-      "Non-Critical Fuses7"
-    ],
-    [
-      "24c2380e-3122-4ed4-8f93-9bbbae8c25de",
-      "Non-Critical Fuses8"
-    ],
-    [
-      "4763536e-7ebc-46be-a770-f6b090c90a7e",
-      "Non-Critical Fuses9"
-    ],
-    [
-      "e148df88-9647-4e60-9f2c-a8647da26d9f",
-      "Non-Critical Fuses10"
-    ],
-    [
-      "52d1015b-6151-4c78-82f1-6085843c475d",
-      "Non-Critical Fuses11"
+      "9c692456-dbcd-477c-ad6f-93c510f34f24",
+      "Power Output13"
     ]
   ],
   "text_variables": {}
