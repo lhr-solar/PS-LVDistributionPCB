@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -460,6 +461,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -686,14 +688,6 @@
     [
       "0c5dc2b3-5678-4805-b517-2383e282d677",
       "Power Output10"
-    ],
-    [
-      "38b14ef7-52c4-4c19-bee0-83aa3ed98b27",
-      "Power Output12"
-    ],
-    [
-      "9c692456-dbcd-477c-ad6f-93c510f34f24",
-      "Power Output13"
     ]
   ],
   "text_variables": {}

@@ -903,6 +903,12 @@
 		(uuid "10a4eab7-2e36-4680-91c8-6b387f229c67")
 	)
 	(junction
+		(at 248.92 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "154d5909-500b-46ac-9025-2c75a04b38b8")
+	)
+	(junction
 		(at 248.92 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -926,6 +932,12 @@
 		(color 0 0 0 0)
 		(uuid "d2aa41b4-410f-47e4-af3c-48b3ed166041")
 	)
+	(junction
+		(at 248.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dddb09c3-f6b2-4f8d-bfd8-db1b14a75994")
+	)
 	(wire
 		(pts
 			(xy 24.13 33.02) (xy 27.94 33.02)
@@ -945,16 +957,6 @@
 			(type default)
 		)
 		(uuid "06ae4640-b5bc-457f-95ea-02d1496ff336")
-	)
-	(wire
-		(pts
-			(xy 57.15 170.18) (xy 60.96 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0afe6663-2547-47a4-b9f7-cb8f5648dde5")
 	)
 	(wire
 		(pts
@@ -1028,16 +1030,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 148.59) (xy 60.96 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3114787b-bc06-4ff4-b255-bc16a7f8d941")
-	)
-	(wire
-		(pts
 			(xy 248.92 76.2) (xy 248.92 78.74)
 		)
 		(stroke
@@ -1065,16 +1057,6 @@
 			(type default)
 		)
 		(uuid "369960ca-e825-4698-9f07-6b9589d72627")
-	)
-	(wire
-		(pts
-			(xy 57.15 173.99) (xy 60.96 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3886fa7d-ba82-47d7-b8e3-c909326f3332")
 	)
 	(wire
 		(pts
@@ -1265,6 +1247,16 @@
 			(type default)
 		)
 		(uuid "680aab5d-32ba-4f4b-92a2-646127e1a489")
+	)
+	(wire
+		(pts
+			(xy 248.92 63.5) (xy 248.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b85412-6b5b-4657-a025-24c29fe4cd0d")
 	)
 	(wire
 		(pts
@@ -1468,6 +1460,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 60.96) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb8b339-ee72-4504-8642-d5869469ea34")
+	)
+	(wire
+		(pts
 			(xy 57.15 34.29) (xy 57.15 33.02)
 		)
 		(stroke
@@ -1528,16 +1530,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 147.32) (xy 57.15 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c73b42ee-2024-4293-b90b-d51ea855c359")
-	)
-	(wire
-		(pts
 			(xy 248.92 58.42) (xy 255.27 58.42)
 		)
 		(stroke
@@ -1568,16 +1560,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 152.4) (xy 60.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cddafc9c-c5fd-45b5-b250-27a13400e515")
-	)
-	(wire
-		(pts
 			(xy 57.15 105.41) (xy 57.15 104.14)
 		)
 		(stroke
@@ -1585,26 +1567,6 @@
 			(type default)
 		)
 		(uuid "d2bd1040-2034-4c81-b447-73ded5e5ec71")
-	)
-	(wire
-		(pts
-			(xy 57.15 168.91) (xy 57.15 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9335f72-4ead-442f-80e7-f257e9a8708f")
-	)
-	(wire
-		(pts
-			(xy 57.15 153.67) (xy 57.15 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f76b5f-d4e6-4968-ac04-5b5d890659e6")
 	)
 	(wire
 		(pts
@@ -1705,16 +1667,6 @@
 			(type default)
 		)
 		(uuid "f216271a-03e9-4bfc-ad6a-e74fc131705d")
-	)
-	(wire
-		(pts
-			(xy 57.15 175.26) (xy 57.15 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a7763b-5dff-4790-afa2-30f3b6833483")
 	)
 	(wire
 		(pts
@@ -2080,72 +2032,6 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 57.15 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12fcfbf9-f18b-4262-894a-f8d94f908387")
-		(property "Reference" "#PWR046"
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b6cd365-07a4-4ed9-8b8c-3fe74c806381")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
 		(at 248.92 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2476,73 +2362,6 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 248.92 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24013f49-5fd5-4f62-8a10-d8ab60c0f5c4")
-		(property "Reference" "#PWR024"
-			(at 252.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P14"
-			(at 245.11 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 248.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3310f396-0e6e-4039-889e-c2ffd5b12e0e")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
 		(at 248.92 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2670,72 +2489,6 @@
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 57.15 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "292e917c-8c97-46dd-a3d7-f242b3fa6cf8")
-		(property "Reference" "#PWR047"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P14"
-			(at 57.15 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5af64fd2-2a99-47f0-94db-5ab1653285c2")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3606,72 +3359,6 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 57.15 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bc52239-414d-4eee-8fd1-52c05b1813ab")
-		(property "Reference" "#PWR048"
-			(at 57.15 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 57.15 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db6e4bce-7cb9-4db0-af76-a84392773fd2")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
 		(at 24.13 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3863,139 +3550,6 @@
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 248.92 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a39388d3-2998-4bb1-85e4-d16974919877")
-		(property "Reference" "#PWR023"
-			(at 252.73 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P13"
-			(at 245.11 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 248.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7f537f7-c738-4c57-970b-9dd849d5250a")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 57.15 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae733726-976f-48d9-b8bd-d9e84b18ca11")
-		(property "Reference" "#PWR045"
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P13"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 57.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18236a61-7bcf-42d9-b44f-cf00fbc7bff5")
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4971,68 +4525,6 @@
 		)
 	)
 	(sheet
-		(at 60.96 146.05)
-		(size 20.32 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "38b14ef7-52c4-4c19-bee0-83aa3ed98b27")
-		(property "Sheetname" "Power Output12"
-			(at 60.96 145.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "output.kicad_sch"
-			(at 60.96 155.5246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 60.96 152.4 180)
-			(uuid "87bd16f8-c143-40a3-9280-f422f3530708")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V+" input
-			(at 60.96 148.59 180)
-			(uuid "6ac5e62e-a9a8-4194-aae0-58088815d4e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 60.96 119.38)
 		(size 20.32 8.89)
 		(exclude_from_sim no)
@@ -5276,68 +4768,6 @@
 			(project "PS-LVDistributionPCB"
 				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 60.96 167.64)
-		(size 20.32 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9c692456-dbcd-477c-ad6f-93c510f34f24")
-		(property "Sheetname" "Power Output13"
-			(at 60.96 166.9284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "output.kicad_sch"
-			(at 60.96 177.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 60.96 173.99 180)
-			(uuid "ddc0c580-dda0-489f-9c1d-3754199e2d9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V+" input
-			(at 60.96 170.18 180)
-			(uuid "27137cb0-0d1d-4588-86d3-c9dc8c7f7769")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PS-LVDistributionPCB"
-				(path "/bae4e46c-28ae-4193-a5e0-928c081802f5"
-					(page "15")
 				)
 			)
 		)
