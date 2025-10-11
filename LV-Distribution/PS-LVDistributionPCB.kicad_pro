@@ -190,7 +190,11 @@
       "track_widths": [
         0.0,
         0.3,
-        0.5
+        0.5,
+        0.8,
+        1.0,
+        1.2,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -682,12 +686,12 @@
       "Power Output11"
     ],
     [
-      "eaa12baa-4d75-41da-8f13-104e26b06c51",
-      "Power Output13"
-    ],
-    [
       "0c5dc2b3-5678-4805-b517-2383e282d677",
       "Power Output12"
+    ],
+    [
+      "eaa12baa-4d75-41da-8f13-104e26b06c51",
+      "Power Output13"
     ],
     [
       "f6595e64-546f-45a1-8040-d6d57933fce3",
