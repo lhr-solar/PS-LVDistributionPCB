@@ -933,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603 TVS diode (rip sorry)"
+		(property "Description" "SMB TVS diode (rip sorry)"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -942,7 +942,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CPDUC5V0R-HF "
+		(property "P/N" "SMBJ30CD-M3/I"
 			(at 38.1 58.42 0)
 			(effects
 				(font
