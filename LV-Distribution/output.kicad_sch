@@ -915,7 +915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "footprints:D_SMB"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -933,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMB TVS diode (rip sorry)"
+		(property "Description" "TVS diode"
 			(at 38.1 58.42 0)
 			(effects
 				(font

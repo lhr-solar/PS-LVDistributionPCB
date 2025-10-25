@@ -233,7 +233,7 @@
 		(uuid "ca018da2-864b-47d2-b5df-38e6e7577749")
 	)
 	(fp_text user "-"
-		(at -4 0 0)
+		(at -2.5 -4.1 0)
 		(layer "F.SilkS")
 		(uuid "2d6ad66c-fbb0-400e-a595-73c977aa71e7")
 		(effects
@@ -244,7 +244,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at 9 0 0)
+		(at 7.4 -4.1 0)
 		(layer "F.SilkS")
 		(uuid "9ba4d51e-0440-49c4-b98d-bb048b719076")
 		(effects
