@@ -591,6 +591,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "p/n",
+          "name": "p/n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N",
+          "name": "P/N",
+          "show": false
         }
       ],
       "filter_string": "",

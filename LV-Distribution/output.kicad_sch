@@ -655,7 +655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/201/1/3568.PDF"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -664,7 +664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD fuse holder"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -673,47 +673,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "C"
-			(at 52.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone"
-			(at 52.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "3568"
-			(at 52.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
-			(at 52.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "P/N" "3568"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -833,7 +793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.com/Document/e5863b891432488e7531b3c4468225ac/XT30PB-M.pdf"
 			(at 69.85 36.83 0)
 			(effects
 				(font
@@ -842,7 +802,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "XT30 2 pin board mount connector"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XT30UPB-M"
 			(at 69.85 36.83 0)
 			(effects
 				(font
@@ -955,7 +924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/CPDxx5V0R-HF%20Series%20RevC661473.pdf"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -964,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" "0603 TVS diode (rip sorry)"
 			(at 38.1 58.42 0)
 			(effects
 				(font

@@ -2354,7 +2354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MX150 20 pin right angle header"
 			(at 151.13 21.59 0)
 			(effects
 				(font
